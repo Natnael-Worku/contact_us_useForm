@@ -1,7 +1,6 @@
 import React from "react";
 import ContactStyle from "./Contact.module.css";
 import { useForm } from "react-hook-form";
-import { DevTool } from "@hookform/devtools";
 
 interface FormValues {
   name: string;
@@ -10,12 +9,12 @@ interface FormValues {
 }
 const Contact = () => {
   const form = useForm<FormValues>();
-  const { register, control, handleSubmit,formState } = form;
+  const { register, handleSubmit,formState } = form;
   const {errors} = formState;
 
   const onSubmit = (data: FormValues) => {
     console.log(data);
-    
+
   };
 
   return (
@@ -62,7 +61,6 @@ const Contact = () => {
         </div>
         <button className={ContactStyle.contact_button}>Send</button>
       </form>
-      <DevTool control={control} />
     </div>
   );
 };
