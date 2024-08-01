@@ -1,4 +1,3 @@
-import React from "react";
 import ContactStyle from "./Contact.module.css";
 import { useForm } from "react-hook-form";
 
