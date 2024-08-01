@@ -13,6 +13,7 @@ const Contact = () => {
 
   const onSubmit = (data: FormValues) => {
     console.log(data);
+    alert("submitted sucessfuly")
     reset()
 
   };
