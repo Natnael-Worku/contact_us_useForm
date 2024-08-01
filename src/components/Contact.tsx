@@ -8,12 +8,12 @@ interface FormValues {
 }
 const Contact = () => {
   const form = useForm<FormValues>();
-  const { register, handleSubmit,formState } = form;
+  const { register, handleSubmit,formState ,reset} = form;
   const {errors} = formState;
 
   const onSubmit = (data: FormValues) => {
     console.log(data);
-    alert("form submmited")
+    reset()
 
   };
 
