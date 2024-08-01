@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+## Contact Us Page
+This is a contact us page built using React, TypeScript, and CSS. It utilizes the React Hook Form library to manage form state, perform data validation, and handle form submission.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Features
+Responsive Design: The contact us page is designed to be responsive and accessible on various devices and screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Form Validation: The form fields are validated using the React Hook Form library, ensuring that the user provides valid input before submitting the form.
 
-## Expanding the ESLint configuration
+Data Handling: The form data is managed using the React Hook Form library, allowing for easy access to the submitted information.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Submission Handling: The form submission process is handled using the React Hook Form library, providing a seamless user experience.
 
-- Configure the top-level `parserOptions` property like this:
+## images of the page
+![image of the contac us form](image.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+# error message displayed by react useform hook
+![error message displayed for each input field](image-1.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+React: A JavaScript library for building user interfaces.
+
+TypeScript: A superset of JavaScript that adds optional static typing.
+
+CSS: Cascading Style Sheets used for styling the contact us page.
+
+React Hook Form: A library for managing form state, validation, and submission.
+
+## Installation
+1. Clone the repository
+2. Navigate to the project directory
+3. Install the dependencies
+5. Start the development server
+
+## Usage
+Navigate to the contact us page.
+
+Fill out the form fields, including name, email, and message.
+
+The form will automatically validate the input, and the user will be notified of any errors.
+
+Once the form is filled out correctly, click the "Submit" button to send the contact information.
